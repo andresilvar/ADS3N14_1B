@@ -4,8 +4,8 @@ import static java.lang.System.out;
 
 public class ListaEncadeada<T extends Comparable<T>> {
 
-	private Nodo<T> head; // will be a Nodo
-	private Nodo<T> tail; // will be a Nodo
+	private Nodo<T> head; 
+	private Nodo<T> tail; 
 
 	public Nodo<T> getHead()
 	{
